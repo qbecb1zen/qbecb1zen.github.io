@@ -1,0 +1,8 @@
+theme = 'blowfish'
+baseURL = 'https://l1d1nsec.com/'
+languageCode = 'en-us'
+title = 'l1d1nsec'
+defaultContentLanguage='en'
+
+[[homepage]]
+    showRecent='true'
