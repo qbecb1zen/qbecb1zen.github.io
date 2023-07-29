@@ -1,5 +1,5 @@
 theme = 'blowfish'
-baseURL = 'https://qbecb1zen.github.io/blog/'
+baseURL = 'https://qbecb1zen.github.io/'
 languageCode = 'en-us'
 title = 'l1d1nsec'
 defaultContentLanguage='en'
