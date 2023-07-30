@@ -51,7 +51,7 @@ Quelques exemples de vulnérabilités classiques découvertes lors des audit de 
 
 - **Injection SQL** : L'absence de validation ou d'échappement des entrées utilisateur peut permettre aux attaquants d'injecter des requêtes SQL malveillantes, compromettant ainsi la base de données et pouvant entraîner la divulgation d'informations sensibles (exemple : "SELECT * FROM users WHERE username='$username';").
 
-- **Cross-Site Scripting (XSS)** : Des données non vérifiées insérées dans des pages Web peuvent permettre aux attaquants d'injecter du code malveillant dans les navigateurs des utilisateurs, ce qui peut entraîner des vols de session ou des redirections vers des sites frauduleux (exemple : "<script>code malveillant ici</script>").
+- **Cross-Site Scripting (XSS)** : Des données non vérifiées insérées dans des pages Web peuvent permettre aux attaquants d'injecter du code malveillant dans les navigateurs des utilisateurs, ce qui peut entraîner des vols de session ou des redirections vers des sites frauduleux (exemple : \<script\>code malveillant ici\<\/\>").
 
 - **Cross-Site Request Forgery (CSRF)** : Les attaquants peuvent inciter les utilisateurs authentifiés à envoyer des requêtes non intentionnelles à un site Web, par exemple, en cliquant sur un lien malveillant dans un e-mail, ce qui peut entraîner des actions indésirables sur le compte de l'utilisateur (exemple : envoyer un formulaire avec une action malveillante sans que l'utilisateur en soit conscient).
 
