@@ -1,8 +1,25 @@
-theme = 'blowfish'
-baseURL = 'https://qbecb1zen.github.io/'
-languageCode = 'en-us'
-title = 'l1d1nsec'
-defaultContentLanguage='en'
+theme = "blowfish"
+baseURL = "https://l1d1nsec.com/"
+defaultContentLanguage = "en"
+defaultAppearance= "dark"
 
-[[homepage]]
-    showRecent='true'
+enableRobotsTXT = true
+paginate = 20
+summaryLength = 30
+
+buildDrafts = false
+buildFuture = false
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

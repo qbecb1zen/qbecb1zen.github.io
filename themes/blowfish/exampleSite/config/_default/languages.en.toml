@@ -20,8 +20,7 @@ title = "Blowfish"
   bio = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
   links = [
     { twitter = "https://twitter.com/burufugu" },
-    { mastodon = "https://masto.ai/@blowfish" },
-    { github = "https://github.com/nunocoracao/blowfish" },
+    { mastodon = "https://github.com/nunocoracao/blowfish" },
   ]
 
   

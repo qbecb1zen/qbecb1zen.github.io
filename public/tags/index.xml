@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on l1d1nsec.com</title>
-    <link>https://l1d1nsec.com/tags/</link>
-    <description>Recent content in Tags on l1d1nsec.com</description>
+    <title>Tags on l1d1nsec</title>
+    <link>https://qbecb1zen.github.io/tags/</link>
+    <description>Recent content in Tags on l1d1nsec</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://l1d1nsec.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>© 2023 Amine Louzar</copyright>
+    <atom:link href="https://qbecb1zen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

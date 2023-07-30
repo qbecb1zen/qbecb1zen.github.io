@@ -2,13 +2,14 @@ languageCode = "en"
 languageName = "English"
 weight = 1
 title = "l1d1nsec"
+dateFormat = "2 January 2006"
 
 [author]
-name = "Amine Louzar"
-image = "img/author.jpg"
-headline = "Cybersecurity Consultant & Auditor | CTO co-founder"
-bio = "A little bit about me"
-links = [
-  { twitter = "https://twitter.com/AmineLz98" },
-    { github = "https://github.com/qbecb1zen" },
-]
+  name = "Amine Louzar"
+  image = "img/avatar.png"
+  headline = "Cybersecurity Consultant & Auditor | CTO co-founder"
+  bio = "A little bit about me"
+  links = [
+    { twitter = "https://twitter.com/AmineLz98" },
+    { rootme = "https://root-me.org/l3ur" },
+  ]

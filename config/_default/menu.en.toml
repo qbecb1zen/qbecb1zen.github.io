@@ -1,10 +1,28 @@
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "About"
+  pageRef = "about"
   weight = 10
 
 [[main]]
-  pre = "github"
-  name = "GitHub"
-  url = "https://github.com/qbecb1zen"
+  name = "Blog"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
   weight = 30
+
+[[main]]
+  identifier = "rootme"
+  pre = "rootme"
+  url = "https://www.root-me.org/L3ur/"
+  weight = 40
+
+
+[[main]]
+  identifier = "twitter"
+  pre = "twitter"
+  url = "https://twitter.com/AmineLz98"
+  weight = 60
+
