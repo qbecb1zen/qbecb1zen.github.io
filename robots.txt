@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://l1d1nsec.com/sitemap.xml
