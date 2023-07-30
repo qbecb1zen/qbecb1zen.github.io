@@ -1,1 +1,72 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on l1d1nsec</title><link>https://l1d1nsec.com/tags/</link><description>Recent content in Tags on l1d1nsec</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2023 Amine Louzar</copyright><lastBuildDate>Sun, 30 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://l1d1nsec.com/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Audit code</title><link>https://l1d1nsec.com/tags/audit-code/</link><pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate><guid>https://l1d1nsec.com/tags/audit-code/</guid><description/></item><item><title>ISO 19011</title><link>https://l1d1nsec.com/tags/iso-19011/</link><pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate><guid>https://l1d1nsec.com/tags/iso-19011/</guid><description/></item><item><title>PASSI</title><link>https://l1d1nsec.com/tags/passi/</link><pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate><guid>https://l1d1nsec.com/tags/passi/</guid><description/></item><item><title>Preparation</title><link>https://l1d1nsec.com/tags/preparation/</link><pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate><guid>https://l1d1nsec.com/tags/preparation/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on l1d1nsec</title>
+    <link>https://l1d1nsec.com/tags/</link>
+    <description>Recent content in Tags on l1d1nsec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 Amine Louzar</copyright>
+    <lastBuildDate>Sun, 30 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://l1d1nsec.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Audit code</title>
+      <link>https://l1d1nsec.com/tags/audit-code/</link>
+      <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://l1d1nsec.com/tags/audit-code/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ISO 19011</title>
+      <link>https://l1d1nsec.com/tags/iso-19011/</link>
+      <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://l1d1nsec.com/tags/iso-19011/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>PASSI</title>
+      <link>https://l1d1nsec.com/tags/passi/</link>
+      <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://l1d1nsec.com/tags/passi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Preparation</title>
+      <link>https://l1d1nsec.com/tags/preparation/</link>
+      <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://l1d1nsec.com/tags/preparation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://l1d1nsec.com/tags/development/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://l1d1nsec.com/tags/development/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Knowledge</title>
+      <link>https://l1d1nsec.com/tags/knowledge/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://l1d1nsec.com/tags/knowledge/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

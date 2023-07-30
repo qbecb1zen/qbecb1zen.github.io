@@ -1,1 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>l1d1nsec</title><link>https://l1d1nsec.com/</link><description>Recent content on l1d1nsec</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2023 Amine Louzar</copyright><lastBuildDate>Sun, 30 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://l1d1nsec.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Audit de Code : La quête des vulnérabilités cachées dans vos applications.</title><link>https://l1d1nsec.com/posts/audit-code/</link><pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate><guid>https://l1d1nsec.com/posts/audit-code/</guid><description>Cet article technique dévoile les objectifs, la méthodologie étape par étape, et les vulnérabilités courantes identifiées lors d&amp;rsquo;un audit de code.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://l1d1nsec.com/posts/audit-code/cover.jpg"/></item><item><title>Décryptage de l'ISO 19011 : Lignes directrices essentielles pour des audits de qualité.</title><link>https://l1d1nsec.com/posts/iso-19011/</link><pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate><guid>https://l1d1nsec.com/posts/iso-19011/</guid><description>Cet article propose une analyse approfondie de l&amp;rsquo;ISO 19011, la norme incontournable fournissant des directives essentielles pour réaliser des audits efficaces et rigoureux, favorisant ainsi la performance et la conformité des systèmes de management.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://l1d1nsec.com/posts/iso-19011/cover.jpg"/></item><item><title>Préparation au PASSI</title><link>https://l1d1nsec.com/posts/passi/</link><pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate><guid>https://l1d1nsec.com/posts/passi/</guid><description>Cet article relate ma méthodologie rigoureuse et mes découvertes techniques lors de ma préparation aux 5 épreuves du PASSI, offrant un aperçu approfondi du monde mature de la cybersécurité.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://l1d1nsec.com/posts/passi/cover.png"/></item><item><title/><link>https://l1d1nsec.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://l1d1nsec.com/about/</guid><description>🎓 Graduaded of a Master of Engineering in Computer Science and CyberSecurity @CentraleSupélec 📚 I’m actively looking for interesting open source projects to contribute to. 👯 Co-founder and CTO of a promising Cybersecurity Startup, feel free to contact me.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>l1d1nsec</title>
+    <link>https://l1d1nsec.com/</link>
+    <description>Recent content on l1d1nsec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 Amine Louzar</copyright>
+    <lastBuildDate>Sun, 30 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://l1d1nsec.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Audit de Code : La quête des vulnérabilités cachées dans vos applications.</title>
+      <link>https://l1d1nsec.com/posts/audit-code/</link>
+      <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://l1d1nsec.com/posts/audit-code/</guid>
+      <description>Cet article technique dévoile les objectifs, la méthodologie étape par étape, et les vulnérabilités courantes identifiées lors d&amp;rsquo;un audit de code.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://l1d1nsec.com/posts/audit-code/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Décryptage de l&#39;ISO 19011 : Lignes directrices essentielles pour des audits de qualité.</title>
+      <link>https://l1d1nsec.com/posts/iso-19011/</link>
+      <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://l1d1nsec.com/posts/iso-19011/</guid>
+      <description>Cet article propose une analyse approfondie de l&amp;rsquo;ISO 19011, la norme incontournable fournissant des directives essentielles pour réaliser des audits efficaces et rigoureux, favorisant ainsi la performance et la conformité des systèmes de management.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://l1d1nsec.com/posts/iso-19011/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Faire son blog en 10 minutes</title>
+      <link>https://l1d1nsec.com/posts/blog/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://l1d1nsec.com/posts/blog/</guid>
+      <description>J&amp;rsquo;ai rédigé cet article afin de partager comment se blog a été réalisé. Il a coûté uniquement le prix du DNS à l&amp;rsquo;année et est rédigé entièrement en Markdown, aucune connaissance autre n&amp;rsquo;est nécessaire.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://l1d1nsec.com/posts/blog/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>Préparation au PASSI</title>
+      <link>https://l1d1nsec.com/posts/passi/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://l1d1nsec.com/posts/passi/</guid>
+      <description>Cet article relate ma méthodologie rigoureuse et mes découvertes techniques lors de ma préparation aux 5 épreuves du PASSI, offrant un aperçu approfondi du monde mature de la cybersécurité.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://l1d1nsec.com/posts/passi/cover.png" />
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://l1d1nsec.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://l1d1nsec.com/about/</guid>
+      <description>🎓 Graduaded of a Master of Engineering in Computer Science and CyberSecurity @CentraleSupélec 📚 I’m actively looking for interesting open source projects to contribute to. 👯 Co-founder and CTO of a promising Cybersecurity Startup, feel free to contact me.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

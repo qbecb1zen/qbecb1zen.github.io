@@ -1,1 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on l1d1nsec</title><link>https://l1d1nsec.com/categories/</link><description>Recent content in Categories on l1d1nsec</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2023 Amine Louzar</copyright><lastBuildDate>Sun, 30 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://l1d1nsec.com/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog</title><link>https://l1d1nsec.com/categories/blog/</link><pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate><guid>https://l1d1nsec.com/categories/blog/</guid><description/></item><item><title>PASSI</title><link>https://l1d1nsec.com/categories/passi/</link><pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate><guid>https://l1d1nsec.com/categories/passi/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on l1d1nsec</title>
+    <link>https://l1d1nsec.com/categories/</link>
+    <description>Recent content in Categories on l1d1nsec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 Amine Louzar</copyright>
+    <lastBuildDate>Sun, 30 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://l1d1nsec.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://l1d1nsec.com/categories/blog/</link>
+      <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://l1d1nsec.com/categories/blog/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>PASSI</title>
+      <link>https://l1d1nsec.com/categories/passi/</link>
+      <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://l1d1nsec.com/categories/passi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Dev</title>
+      <link>https://l1d1nsec.com/categories/dev/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://l1d1nsec.com/categories/dev/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
