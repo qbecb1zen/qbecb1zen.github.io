@@ -4,20 +4,44 @@
   weight = 10
 
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "Dev articles"
+  pageRef = "dev-posts"
   weight = 20
+
+
+[[main]]
+  name = "Cyber articles"
+  weight = 30
+
+[[main]]
+  name = "Audits"
+  parent = "Cyber articles"
+  pageRef = "cyber-posts-Audits"
+  weight = 33
+
+[[main]]
+  name = "General"
+  parent = "Cyber articles"
+  pageRef = "cyber-posts-General"
+  weight = 39
+
+[[main]]
+  name = "Vulnerabilities"
+  parent = "Cyber articles"
+  pageRef = "cyber-posts-Vulnerabilities"
+  weight = 36
+
 
 [[main]]
   name = "Tags"
   pageRef = "tags"
-  weight = 30
+  weight = 40
 
 [[main]]
   identifier = "rootme"
   pre = "rootme"
   url = "https://www.root-me.org/L3ur/"
-  weight = 40
+  weight = 50
 
 
 [[main]]

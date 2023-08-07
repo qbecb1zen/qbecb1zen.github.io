@@ -1,6 +1,6 @@
 ---
-title: "Préparation au PASSI"
-summary: "Cet article relate ma méthodologie rigoureuse et mes découvertes techniques lors de ma préparation aux 5 épreuves du PASSI, offrant un aperçu approfondi du monde mature de la cybersécurité."
+title: "PASSI"
+summary: "Cet article présente différents points sur le PASSI et les différentes portées de la certification PASSI, offrant un aperçu approfondi du monde mature de la cybersécurité."
 categories: ["Blog","PASSI",]
 tags: ["PASSI","Preparation"]
 showSummary: true
@@ -38,7 +38,7 @@ L'audit de code est une étape fondamentale pour évaluer la sécurité des appl
 L'audit test d'intrusion, souvent appelé "pentest", est l'étape finale et la plus pratique du PASSI. Elle consiste à simuler une attaque réelle sur les systèmes de l'organisation pour évaluer leur résistance face à une intrusion potentielle. Pour cette portée, vous devrez vous former aux méthodes d'attaque courantes, telles que l'ingénierie sociale, le scan de ports, l'exploitation de vulnérabilités, etc. Vous devrez également apprendre à documenter rigoureusement chaque étape du test et à fournir des recommandations pour améliorer la sécurité des systèmes testés. Une bonne connaissance des lois et réglementations en matière de cybersécurité est essentielle, car les tests d'intrusion doivent être effectués de manière légale et éthique.
 
 ## Conclusion
-Ainsi, pour ma préparation pour l'audit, je vais rédiger tout le long de la semaine, 1 article par portée qui résume globalement mes découvertes sur les différentes portées. Chaque article qui suivera celui-ci sera principalement composé de :
+Je vais rédiger, 1 article par portée qui résume globalement mes découvertes sur les différentes portées. Chaque article qui suivera celui-ci sera principalement composé de :
     - Objectif de l'audit
     - Suite à quel type d'audit
     - Méthodologie d'audit

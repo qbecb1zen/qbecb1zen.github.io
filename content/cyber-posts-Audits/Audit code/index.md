@@ -4,7 +4,7 @@ summary: "Cet article technique dévoile les objectifs, la méthodologie étape 
 categories: ["Blog","PASSI",]
 tags: ["PASSI","Preparation","Audit code"]
 showSummary: true
-date: 2023-07-30
+date: 2023-07-31
 draft: false
 ---
 
