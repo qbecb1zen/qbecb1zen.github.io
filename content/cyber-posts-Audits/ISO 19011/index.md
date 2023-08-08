@@ -4,7 +4,7 @@ summary: "Cet article propose une analyse approfondie de l'ISO 19011, la norme i
 categories: ["Blog","PASSI",]
 tags: ["PASSI","Preparation","ISO 19011"]
 showSummary: true
-date: 2023-07-30
+date: 2023-07-31
 draft: false
 ---
 

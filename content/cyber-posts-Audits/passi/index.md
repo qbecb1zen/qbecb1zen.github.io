@@ -4,7 +4,7 @@ summary: "Cet article présente différents points sur le PASSI et les différen
 categories: ["Blog","PASSI",]
 tags: ["PASSI","Preparation"]
 showSummary: true
-date: 2023-07-29
+date: 2023-07-30
 draft: false
 ---
 
