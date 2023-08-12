@@ -4,7 +4,7 @@ summary: "De l'historique du SEO aux meilleures pratiques actuelles, en passant 
 categories: ["Blog", "Marketing Digital"]
 tags: ["SEO", "Référencement Naturel", "Optimisation", "Moteurs de Recherche"]
 showSummary: true
-date: 2023-08-10
+date: 2023-08-12
 draft: false
 ---
 
