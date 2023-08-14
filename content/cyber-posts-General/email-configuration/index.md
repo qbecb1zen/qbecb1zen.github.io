@@ -4,7 +4,7 @@ summary: "Cet article explore les protocoles SPF, DKIM et DMARC, qui sont essent
 categories: ["Blog","Sécurité"]
 tags: ["Cybersécurité", "Email", "Authentification"]
 showSummary: true
-date: 2023-08-12
+date: 2023-08-14
 draft: false
 ---
 

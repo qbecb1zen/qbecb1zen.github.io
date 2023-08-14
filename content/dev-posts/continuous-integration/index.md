@@ -4,7 +4,7 @@ summary: "De l'introduction à la mise en pratique, cet article explore en profo
 categories: ["Blog", "Développement", "DevOps"]
 tags: ["CI", "Intégration Continue", "GitLab", "Jenkins", "GitHub", "React", "JavaScript"]
 showSummary: true
-date: 2023-08-09
+date: 2023-08-10
 draft: false
 ---
 
