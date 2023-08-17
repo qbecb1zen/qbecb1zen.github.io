@@ -4,7 +4,7 @@ summary: "Des origines des Progressive Web Apps à leurs applications concrètes
 categories: ["Blog", "Développement Web"]
 tags: ["PWA", "Service Workers", "Performance", "Offline", "Web"]
 showSummary: true
-date: 2023-08-16
+date: 2023-08-17
 draft: false
 ---
 # Progressive Web Apps (PWA) : Exploration technique détaillée

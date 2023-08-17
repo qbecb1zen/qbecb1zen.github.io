@@ -4,7 +4,7 @@ summary: "Un examen technique approfondi du Garbage Collection en JavaScript, en
 categories: ["Blog", "Développement Web"]
 tags: ["JavaScript", "Garbage Collection", "Mémoire", "Optimisation", "TypeScript"]
 showSummary: true
-date: 2023-08-16
+date: 2023-08-17
 draft: false
 ---
 
