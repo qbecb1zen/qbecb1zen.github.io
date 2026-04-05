@@ -1,4 +1,12 @@
-{{- $gitLabData := getJSON (print (default "https://gitlab.com/" (.Get "baseURL")) "api/v4/projects/" (.Get "projectID")) -}}
+{{- $url := print (default "https://gitlab.com/" (.Get "baseURL")) "api/v4/projects/" (.Get "projectID") -}}
+{{- $gitLabData := dict -}}
+{{- with resources.GetRemote $url -}}
+  {{- with .Err -}}
+    {{- warnf "gitlab shortcode: failed to fetch %s: %s" $url . -}}
+  {{- else -}}
+    {{- $gitLabData = . | transform.Unmarshal -}}
+  {{- end -}}
+{{- end -}}
 {{- with $gitLabData -}}
 
 <a target="_blank" href="{{ .html_url }}" class="cursor-pointer">
