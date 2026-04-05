@@ -10,8 +10,8 @@ copyright = "© { year } Amine Louzar"
 [author]
   name = "Amine Louzar"
   image = "img/avatar.png"
-  headline = "Cybersecurity Consultant & Auditor | CTO co-founder"
-  bio = "A little bit about me"
+  headline = "Consultant & Auditeur en Cybersécurité | Co-fondateur & CTO"
+  bio = "Passionné de cybersécurité et de développement"
   links = [
     { linkedin = "https://www.linkedin.com/in/aminelouzar" },
     { rootme = "https://root-me.org/l3ur" },
