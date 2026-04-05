@@ -1,8 +1,8 @@
 ---
 title: "WSUS : Définition, utilité et importance cyber"
 summary: "WSUS est un service de Microsoft qui centralise la gestion des mises à jour Windows, améliorant ainsi l'efficacité, la bande passante et renforçant la cybersécurité par un déploiement uniforme des correctifs de sécurité."
-categories: ["Blog","Securité",]
-tags: ["Sécurité", "SSI","Organisationnel"]
+categories: ["Cybersécurité"]
+tags: ["Cybersécurité", "SSI", "Organisationnel"]
 showSummary: true
 date: 2023-08-03
 draft: false

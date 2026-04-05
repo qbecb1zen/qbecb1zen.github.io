@@ -1,8 +1,8 @@
 ---
 title: "PASSI"
 summary: "Cet article présente différents points sur le PASSI et les différentes portées de la certification PASSI, offrant un aperçu approfondi du monde mature de la cybersécurité."
-categories: ["Blog","PASSI",]
-tags: ["PASSI","Preparation"]
+categories: ["Cybersécurité", "PASSI"]
+tags: ["PASSI", "Préparation"]
 showSummary: true
 date: 2023-07-30
 draft: false

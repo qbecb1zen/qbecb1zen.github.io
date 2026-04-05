@@ -1,8 +1,8 @@
 ---
 title: "Décryptage de l'ISO 19011 : Lignes directrices essentielles pour des audits de qualité."
 summary: "Cet article propose une analyse approfondie de l'ISO 19011, la norme incontournable fournissant des directives essentielles pour réaliser des audits efficaces et rigoureux, favorisant ainsi la performance et la conformité des systèmes de management."
-categories: ["Blog","PASSI",]
-tags: ["PASSI","Preparation","ISO 19011"]
+categories: ["Cybersécurité", "PASSI"]
+tags: ["PASSI", "Préparation", "ISO 19011"]
 showSummary: true
 date: 2023-07-31
 draft: false

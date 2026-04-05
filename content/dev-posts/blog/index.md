@@ -1,8 +1,8 @@
 ---
 title: "Faire son blog en 10 minutes"
 summary: "J'ai rédigé cet article afin de partager comment ce blog a été réalisé. Il a coûté uniquement le prix du DNS à l'année et est rédigé entièrement en Markdown, aucune connaissance autre n'est nécessaire."
-categories: ["Blog","Dev",]
-tags: ["Knowledge","Development"]
+categories: ["Développement"]
+tags: ["Blog", "Développement"]
 showSummary: true
 date: 2023-07-29
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: "Progressive Web Apps (PWA) : Une exploration technique détaillée"
 summary: "Des origines des Progressive Web Apps à leurs applications concrètes, en passant par leurs avantages en termes d'expérience utilisateur et d'interopérabilité, cet article offre une analyse technique complète des PWA, essentielle pour tout développeur cherchant à exploiter pleinement le potentiel du web moderne."
-categories: ["Blog", "Développement Web"]
+categories: ["Développement"]
 tags: ["PWA", "Service Workers", "Performance", "Offline", "Web"]
 showSummary: true
 date: 2023-08-17

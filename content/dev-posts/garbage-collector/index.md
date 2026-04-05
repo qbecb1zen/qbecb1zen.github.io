@@ -1,7 +1,7 @@
 ---
 title: "Garbage Collection en JavaScript : Une plongée profonde dans la gestion de la mémoire"
 summary: "Un examen technique approfondi du Garbage Collection en JavaScript, en comparant les mécanismes de gestion de la mémoire avec des langages de bas niveau comme le C, et en explorant les détails internes du ramasse-miettes."
-categories: ["Blog", "Développement Web"]
+categories: ["Développement"]
 tags: ["JavaScript", "Garbage Collection", "Mémoire", "Optimisation", "TypeScript"]
 showSummary: true
 date: 2023-08-17

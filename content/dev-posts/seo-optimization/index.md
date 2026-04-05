@@ -1,7 +1,7 @@
 ---
 title: "Le Guide Ultime du SEO : De ses Origines à ses Pratiques Modernes"
 summary: "De l'historique du SEO aux meilleures pratiques actuelles, en passant par des astuces peu connues et des outils d'audit, cet article offre une vue d'ensemble complète et détaillée du référencement naturel, essentiel pour toute personne cherchant à réussir en ligne."
-categories: ["Blog", "Marketing Digital"]
+categories: ["Développement"]
 tags: ["SEO", "Référencement Naturel", "Optimisation", "Moteurs de Recherche"]
 showSummary: true
 date: 2023-08-13

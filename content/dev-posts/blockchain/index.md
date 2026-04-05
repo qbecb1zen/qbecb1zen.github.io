@@ -1,7 +1,7 @@
 ---
 title: "Comprendre la Blockchain : De la Cryptographie au Minage"
 summary: "Dans cet article, nous plongeons dans le monde fascinant de la blockchain. Découvrez comment cette technologie révolutionnaire fonctionne, pourquoi le minage est essentiel, et les nuances entre différentes cryptomonnaies. Aucune connaissance préalable n'est nécessaire, juste une curiosité pour le monde numérique."
-categories: ["Technologie", "Cryptomonnaie"]
+categories: ["Développement"]
 tags: ["Blockchain", "Bitcoin", "Ethereum", "dApps", "Minage"]
 showSummary: true
 date: 2023-08-15

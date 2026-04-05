@@ -1,7 +1,7 @@
 ---
 title: "Audit de Code : La quête des vulnérabilités cachées dans vos applications."
 summary: "Cet article technique dévoile les objectifs, la méthodologie étape par étape, et les vulnérabilités courantes identifiées lors d'un audit de code."
-categories: ["Blog","PASSI",]
+categories: ["Cybersécurité", "PASSI"]
 tags: ["PASSI","Audit code"]
 showSummary: true
 date: 2023-08-01

@@ -1,7 +1,7 @@
 ---
 title: "React: Composants, Cycle de Vie, et Évolution Modernes"
 summary: "De l'introduction de React à la transformation avec la version 16, cet article explore l'évolution des composants de classe et fonctionnels, met en évidence les avantages des Hooks et démontre pourquoi React est devenu un choix incontournable dans le développement d'interfaces utilisateur."
-categories: ["Blog","Développement",]
+categories: ["Développement"]
 tags: ["React", "JavaScript","Front-end"]
 showSummary: true
 date: 2023-08-06

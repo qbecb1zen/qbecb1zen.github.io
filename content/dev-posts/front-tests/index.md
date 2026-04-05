@@ -1,7 +1,7 @@
 ---
 title: "Les tests en Frontend : Un guide complet"
 summary: "Des composants fonctionnels aux hooks moins connus, cet article décortique les capacités et les applications des Hooks dans React, permettant un code plus propre, modulable et optimisé."
-categories: ["Blog","Développement",]
+categories: ["Développement"]
 tags: ["React", "JavaScript","Front-end"]
 showSummary: true
 date: 2023-08-08

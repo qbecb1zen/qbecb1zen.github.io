@@ -1,8 +1,8 @@
 ---
 title: "EternalBlue ou MS17-010"
 summary: "EternalBlue est un exploit connu qui cible les versions de Windows de Microsoft, exploitant une vulnérabilité dans le protocole SMB et permettant à un attaquant de prendre le contrôle total d'un système."
-categories: ["Blog", "Cybersécurité",]
-tags: ["Sécurité", "SSI", "EternalBlue", "WannaCry", "Exploit"]
+categories: ["Cybersécurité"]
+tags: ["Cybersécurité", "SSI", "EternalBlue", "WannaCry", "Exploit"]
 showSummary: true
 date: 2023-08-04
 draft: false

@@ -1,8 +1,8 @@
 ---
 title: "Active Directory : Architecture, Authentification et Sécurité en Profondeur"
 summary: "Active Directory est un service essentiel de Microsoft qui orchestre l'authentification et l'autorisation au sein des réseaux Windows. De SAM à NTLM et Kerberos, cet article explore les méthodes historiques et actuelles, soulignant l'importance cruciale d'Active Directory dans la cybersécurité et la gestion des systèmes."
-categories: ["Blog", "Sécurité"]
-tags: ["Sécurité", "Authentification", "Active Directory", "Kerberos", "NTLM", "SAM"]
+categories: ["Cybersécurité"]
+tags: ["Cybersécurité", "Authentification", "Active Directory", "Kerberos", "NTLM", "SAM"]
 showSummary: true
 date: 2023-08-02
 draft: false

@@ -1,8 +1,8 @@
 ---
 title: "OSINT : L'art de trouver l'information sur internet."
 summary: "Article non encore complet, en cours de rédaction"
-categories: ["Blog",]
-tags: ["cybersécurité","OSINT"]
+categories: ["Cybersécurité"]
+tags: ["Cybersécurité", "OSINT"]
 showSummary: true
 date: 2023-08-17
 draft: false

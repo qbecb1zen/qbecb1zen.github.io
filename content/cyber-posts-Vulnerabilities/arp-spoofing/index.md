@@ -1,8 +1,8 @@
 ---
 title: "L'ARP Spoofing : Un guide exhaustif pour la sécurité réseau"
 summary: "De l'introduction au fonctionnement, en passant par les implications, la détection, l'exploitation, et la prévention, cet article explore en profondeur l'ARP Spoofing, offrant une compréhension complète pour les experts en cybersécurité, les pentesters et les administrateurs réseau."
-categories: ["Blog", "Cybersécurité", "Réseau"]
-tags: ["ARP Spoofing", "Sécurité Réseau", "Pentesting", "Wireshark", "Arpspoof", "DHCP Snooping"]
+categories: ["Cybersécurité", "Réseau"]
+tags: ["ARP Spoofing", "Sécurité Réseau", "Pentest", "Wireshark", "Arpspoof", "DHCP Snooping"]
 showSummary: true
 date: 2023-08-11
 draft: false

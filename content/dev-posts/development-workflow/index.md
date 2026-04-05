@@ -1,7 +1,7 @@
 ---
 title: "Le Workflow de Travail GitHub : Un Guide Avancé pour les Développeurs"
 summary: "De la gestion précise des versions à la collaboration fluide, cet article explore en profondeur l'utilité et les avantages d'un workflow GitHub structuré, offrant des insights pour un développement plus efficace, contrôlé et de qualité supérieure."
-categories: ["Blog", "Développement"]
+categories: ["Développement"]
 tags: ["Git", "GitHub", "Versionnage", "Workflow"]
 showSummary: true
 date: 2023-08-09

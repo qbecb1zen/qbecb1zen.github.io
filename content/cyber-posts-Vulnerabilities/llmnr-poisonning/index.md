@@ -1,8 +1,8 @@
 ---
 title: "LLMNR Poisoning: Une Vulnérabilité Silencieuse"
 summary: "Le LLMNR Poisoning est une technique d'attaque qui exploite une faiblesse dans le protocole LLMNR, permettant aux attaquants de rediriger et d'intercepter le trafic sur un réseau local. Cet article explore en profondeur cette vulnérabilité, ses implications, et comment la prévenir."
-categories: ["Blog", "Cybersécurité",]
-tags: ["Sécurité", "SSI", "LLMNR", "Poisoning", "Réseau", "Exploit", "NBT-NS", "DNS"]
+categories: ["Cybersécurité", "Réseau"]
+tags: ["Cybersécurité", "SSI", "LLMNR", "Poisoning", "Réseau", "Exploit", "NBT-NS", "DNS"]
 showSummary: true
 date: 2023-08-05
 draft: false

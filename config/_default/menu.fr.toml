@@ -43,10 +43,3 @@
   url = "https://www.root-me.org/L3ur/"
   weight = 50
 
-
-[[main]]
-  identifier = "twitter"
-  pre = "twitter"
-  url = "https://twitter.com/AmineLz98"
-  weight = 60
-

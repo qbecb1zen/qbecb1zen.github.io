@@ -1,7 +1,7 @@
 ---
 title: "WebAssembly (Wasm) : Exploration Technique Approfondie"
 summary: "De la genèse de WebAssembly à ses applications pratiques, en passant par ses avantages en termes de performance et son interopérabilité avec JavaScript, cet article offre une analyse technique complète de Wasm, essentielle pour tout développeur ou chercheur cherchant à exploiter pleinement le potentiel du web moderne."
-categories: ["Blog", "Développement Web"]
+categories: ["Développement"]
 tags: ["WebAssembly", "Wasm", "Performance", "JavaScript", "Compilation"]
 showSummary: true
 date: 2023-08-16

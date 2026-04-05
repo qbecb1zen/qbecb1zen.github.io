@@ -1,7 +1,7 @@
 ---
 title: "L'Intégration Continue (CI) : Un guide exhaustif"
 summary: "De l'introduction à la mise en pratique, cet article explore en profondeur l'importance, les bénéfices, les outils, les étapes et les meilleures pratiques de l'Intégration Continue, offrant une compréhension complète pour les développeurs et les équipes DevOps."
-categories: ["Blog", "Développement", "DevOps"]
+categories: ["Développement", "DevOps"]
 tags: ["CI", "Intégration Continue", "GitLab", "Jenkins", "GitHub", "React", "JavaScript"]
 showSummary: true
 date: 2023-08-10

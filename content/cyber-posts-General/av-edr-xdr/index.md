@@ -1,7 +1,7 @@
 ---
 title: "AV vs EDR vs XDR vs MXDR : Comprendre les Solutions de Cybersécurité Modernes"
 summary: "Cet article explore les protocoles SPF, DKIM et DMARC, qui sont essentiels pour authentifier et sécuriser les emails. Il offre un guide complet pour comprendre, mettre en œuvre et tirer parti de ces protocoles afin de prévenir l'usurpation d'identité et le phishing dans les communications par email."
-categories: ["Blog","Sécurité"]
+categories: ["Cybersécurité"]
 tags: ["Cybersécurité", "Protection", "AV", "EDR", "XDR"]
 showSummary: true
 date: 2023-08-12
