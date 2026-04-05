@@ -7,7 +7,7 @@ title = "blog"
 dateFormat = "2 janvier 2006"
 copyright = "© { year } Amine Louzar"
 
-[author]
+[params.author]
   name = "Amine Louzar"
   image = "img/avatar.png"
   headline = "Consultant & Auditeur en Cybersécurité | Co-fondateur & CTO"
