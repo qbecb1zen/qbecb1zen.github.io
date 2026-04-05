@@ -40,16 +40,34 @@ Patched in: 4.17.21
 
 ## L'architecture
 
+La Lambda est le cœur du système. Elle est déclenchée de deux façons différentes :
+
 ```
-EventBridge Scheduler (rate 2 min)
-        │
-        ▼
-   AWS Lambda (Python 3.12)
-        │
-        ├── GitHub API → /notifications (polling)
-        │       └── fetch details (PR/Issue/Release...)
-        │
-        └── Telegram Bot API → sendMessage
+┌─────────────────────────────────────────────────────────────────────┐
+│                          AWS Lambda                                  │
+│                                                                     │
+│  ┌── Flux 1 : Polling (automatique, toutes les 2 min) ──────────┐  │
+│  │                                                               │  │
+│  │  EventBridge   →   GitHub API          →   Telegram Bot API  │  │
+│  │  Scheduler         GET /notifications      sendMessage()      │  │
+│  │                    GET <subject_url>                          │  │
+│  │                    PUT /notifications (mark read)             │  │
+│  └───────────────────────────────────────────────────────────────┘  │
+│                                                                     │
+│  ┌── Flux 2 : Commandes (à la demande, depuis Telegram) ────────┐  │
+│  │                                                               │  │
+│  │  Telegram Bot  →   parse_update()      →   Telegram Bot API  │  │
+│  │  (POST webhook)    handle_command()        sendMessage()      │  │
+│  │                    (/help /mute /pause…)                      │  │
+│  └───────────────────────────────────────────────────────────────┘  │
+│                                                                     │
+│                    ┌──────────────────────────┐                     │
+│                    │    SSM Parameter Store    │                     │
+│                    │  · secrets (3 tokens)     │                     │
+│                    │  · état du bot            │                     │
+│                    │  · thread-map             │                     │
+│                    └──────────────────────────┘                     │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
 **Pourquoi le polling et pas les webhooks GitHub ?**
@@ -832,6 +850,35 @@ def _format_fallback(notif: GitHubNotification) -> str:
 ### `src/telegram_sender.py`
 
 Envoi via `urllib.request` (aucune dépendance externe). Gestion du **threading** : les notifications successives sur le même sujet (ex: plusieurs commentaires sur la même PR) sont envoyées en réponse au premier message, créant un thread dans Telegram. Le mapping `subject_url → message_id` est stocké en JSON dans SSM et nettoyé au bout de 7 jours.
+
+```
+  Notif 1 : PR #42 opened        Notif 2 : PR #42 comment       Notif 3 : PR #42 review
+          │                               │                               │
+          ▼                               ▼                               ▼
+    sendMessage()               sendMessage()                   sendMessage()
+    reply_to = None             reply_to = msg 1001             reply_to = msg 1001
+          │                               │                               │
+          ▼                               ▼                               ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│  Telegram                                                                       │
+│                                                                                 │
+│  [1001]  🟢 PR opened — owner/repo                                             │
+│          Add dark mode support #42                                              │
+│          By: contributor · Branch: feature/dark-mode → main                    │
+│                                                                                 │
+│     [1042]  ↩  💬 Comment — owner/repo                                         │
+│              Add dark mode support #42                                          │
+│              From: contributor · "LGTM, just one nit…"                         │
+│                                                                                 │
+│     [1078]  ↩  🔍 Review requested — owner/repo                                │
+│              Add dark mode support #42                                          │
+│              🔍 Review requested                                                │
+└─────────────────────────────────────────────────────────────────────────────────┘
+          │
+          ▼
+  SSM thread-map :
+  { "api.github.com/.../pulls/42": { "message_id": 1001, "timestamp": "…" } }
+```
 
 ```python
 # src/telegram_sender.py
