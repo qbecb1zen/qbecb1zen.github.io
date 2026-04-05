@@ -1,6 +1,6 @@
 theme = "blowfish"
-baseURL = "https://l1d1nsec.com/"
-defaultContentLanguage = "en"
+baseURL = "https://claude.louzar.com/"
+defaultContentLanguage = "fr"
 defaultAppearance= "dark"
 
 enableRobotsTXT = true
