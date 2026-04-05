@@ -4,9 +4,9 @@
 {{ if .Site.Params.taxonomy.showHero | default false }}
 {{ $heroStyle := print "partials/hero/" .Site.Params.taxonomy.heroStyle ".html" }}
 {{ if templates.Exists $heroStyle }}
-{{ partial $heroStyle . }}
+{{ partial (strings.TrimPrefix "partials/" $heroStyle) . }}
 {{ else }}
-{{ partial "partials/hero/basic.html" . }}
+{{ partial "hero/basic.html" . }}
 {{ end }}
 {{- end -}}
 

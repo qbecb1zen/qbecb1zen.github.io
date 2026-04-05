@@ -17,9 +17,9 @@
   </div>
   {{ $header := print "partials/header/" .Site.Params.header.layout ".html" }}
   {{ if templates.Exists $header }}
-  {{ partial $header . }}
+  {{ partial (strings.TrimPrefix "partials/" $header) . }}
   {{ else }}
-  {{ partial "partials/header/basic.html" . }}
+  {{ partial "header/basic.html" . }}
   {{ end }}
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
