@@ -1,5 +1,5 @@
 theme = "blowfish"
-baseURL = "https://claude.louzar.com/"
+baseURL = "https://blog.louzar.com/"
 defaultContentLanguage = "fr"
 defaultAppearance= "dark"
 
