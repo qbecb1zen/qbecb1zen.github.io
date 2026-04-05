@@ -87,8 +87,8 @@
       </div>
      
      <script>
-        var oid = "views_{{ .File.Path }}"
-        var oid_likes = "likes_{{ .File.Path }}"
+        var oid = "views_{{ with .File }}{{ .Path }}{{ else }}{{ $.RelPermalink }}{{ end }}"
+        var oid_likes = "likes_{{ with .File }}{{ .Path }}{{ else }}{{ $.RelPermalink }}{{ end }}"
       </script>
       {{ $jsPage := resources.Get "js/page.js" }}
       {{ $jsPage = $jsPage | resources.Minify | resources.Fingerprint "sha512" }}
@@ -107,7 +107,7 @@
       </div>
     </div>
     {{ else }}
-    {{ warnf "[BLOWFISH] Comments are enabled for %s but no comments partial exists." .File.Path }}
+    {{ with .File }}{{ warnf "[BLOWFISH] Comments are enabled for %s but no comments partial exists." .Path }}{{ else }}{{ warnf "[BLOWFISH] Comments are enabled for %s but no comments partial exists." $.RelPermalink }}{{ end }}
     {{ end }}
     {{ end }}
   </footer>

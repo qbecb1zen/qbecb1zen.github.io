@@ -4,7 +4,7 @@
   {{ if ne (substr $url -1 1) "/" }}
     {{ $slash = "/" }}
   {{ end }}
-  {{ $url = printf "%s%s%s" $url $slash (path.Join .File.Path) }}
+  {{ with .File }}{{ $url = printf "%s%s%s" $url $slash (path.Join .Path) }}{{ end }}
 {{ end }}
 <span class="mb-[2px]">
   <a
